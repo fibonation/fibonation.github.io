@@ -1,0 +1,4 @@
+.xs-url, .xs:visited {
+    text-decoration: none !important;
+    color: inherit;
+}
