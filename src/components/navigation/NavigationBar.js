@@ -27,7 +27,7 @@ function NavigationBar() {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" id='appbar'>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography

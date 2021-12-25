@@ -3,12 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Universe from './components/pages/Universe';
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <Routes>
+        <Route path='/' element={<App />}/>
+        <Route path='/universe' element={<Universe />}/>
+        <Route path='/memes' element={<App />}/>
+      </Routes>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
