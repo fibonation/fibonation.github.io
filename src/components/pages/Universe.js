@@ -1,11 +1,10 @@
 import { Card, CardActionArea, CardContent, CardMedia, Grid, Typography } from '@mui/material';
-import NavigationBar from '../navigation/NavigationBar';
 import ministryImage from '../../assets/images/ministry.jpg';
+import CorePage from './CorePage';
 
 function Universe() {
   return (
-    <>
-      <NavigationBar />
+    <CorePage>
       <Grid container justifyContent='center' spacing={2}>
         <Grid item md={3}>
             <Card>
@@ -27,7 +26,7 @@ function Universe() {
             </Card>
         </Grid>
       </Grid>
-    </>
+    </CorePage>
   );
 }
 

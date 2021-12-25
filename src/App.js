@@ -1,11 +1,10 @@
 import { Grid, Paper, Typography } from '@mui/material';
 import './App.css';
-import NavigationBar from './components/navigation/NavigationBar';
+import CorePage from './components/pages/CorePage';
 
 function App() {
   return (
-    <>
-      <NavigationBar />
+    <CorePage>
       <Grid container>
         <Grid item md={3}></Grid>  
         <Grid  item md={6}>
@@ -18,7 +17,7 @@ function App() {
         </Grid>  
         <Grid item md={3}></Grid>  
       </Grid>
-    </>
+    </CorePage>
   );
 }
 
