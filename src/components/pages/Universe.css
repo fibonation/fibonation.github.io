@@ -1,3 +1,7 @@
 .MuiCard-root, .MuiCardActionArea-root, .MuiCardContent-root {
     height: 100%;
 }
+
+.MuiCardMedia-img {
+    height: 200px;
+}

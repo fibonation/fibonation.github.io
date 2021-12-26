@@ -4,6 +4,8 @@ import quotesImage from '../../assets/images/quotes.jpg';
 import antiFurriesImage from '../../assets/images/antifurry.jpg';
 import pointInterestImage from '../../assets/images/poi.jpg';
 import calendarImage from '../../assets/images/calendar.jpg';
+import gastronomyImage from '../../assets/images/gastronomy.jpg';
+import supremeImage from '../../assets/images/supreme.jpg';
 import CorePage from './CorePage';
 import './Universe.css';
 
@@ -17,7 +19,7 @@ function Universe() {
                     <CardMedia 
                         component='img'
                         alt='The Supreme Leader'
-                        image={ministryImage}
+                        image={supremeImage}
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
@@ -131,7 +133,7 @@ function Universe() {
                     <CardMedia 
                         component='img'
                         alt='Gastronomy'
-                        image={ministryImage}
+                        image={gastronomyImage}
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
