@@ -1,0 +1,9 @@
+.left-spyral {
+    transform: rotateZ(-90deg);
+    width: 100%;
+}
+
+.right-spyral {
+    transform: rotateZ(90deg);
+    width: 100%;
+}

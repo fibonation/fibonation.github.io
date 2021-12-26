@@ -8,6 +8,7 @@ import gastronomyImage from '../../assets/images/gastronomy.jpg';
 import supremeImage from '../../assets/images/supreme.jpg';
 import CorePage from './CorePage';
 import './Universe.css';
+import { Link } from 'react-router-dom';
 
 function Universe() {
   return (
@@ -15,7 +16,7 @@ function Universe() {
       <Grid container justifyContent='center' spacing={3} px={5} alignItems='stretch'>
         <Grid item md={3}>
             <Card className='card'>
-                <CardActionArea>
+                <CardActionArea component={Link} to='/universe/supreme-leader'>
                     <CardMedia 
                         component='img'
                         alt='The Supreme Leader'

@@ -1,10 +1,11 @@
 import NavigationBar from '../navigation/NavigationBar';
+import './CorePage.css';
 
 function CorePage({children}) {
   return (
     <>
       <NavigationBar />
-      {children}
+      <div className='smooth-render'>{children}</div>
     </>
   );
 }
