@@ -5,7 +5,7 @@ import CorePage from './components/pages/CorePage';
 function App() {
   return (
     <CorePage>
-      <Grid container>
+      <Grid container px={5}>
         <Grid item md={3}></Grid>  
         <Grid  item md={6}>
           <Paper className='jumbotron-home'>
