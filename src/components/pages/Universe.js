@@ -1,5 +1,9 @@
 import { Card, CardActionArea, CardContent, CardMedia, Grid, Typography } from '@mui/material';
 import ministryImage from '../../assets/images/ministry.jpg';
+import quotesImage from '../../assets/images/quotes.jpg';
+import antiFurriesImage from '../../assets/images/antifurry.jpg';
+import pointInterestImage from '../../assets/images/poi.jpg';
+import calendarImage from '../../assets/images/calendar.jpg';
 import CorePage from './CorePage';
 import './Universe.css';
 
@@ -20,7 +24,7 @@ function Universe() {
                             The Supreme Leader
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            
+                            The Supreme Leader is the head of the Supreme Ministry of Fibonation and acts as representative of all the Fibonatians.
                         </Typography>
                     </CardContent>
                 </CardActionArea>
@@ -51,7 +55,7 @@ function Universe() {
                     <CardMedia 
                         component='img'
                         alt='Famous quotes'
-                        image={ministryImage}
+                        image={quotesImage}
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
@@ -70,7 +74,7 @@ function Universe() {
                     <CardMedia 
                         component='img'
                         alt='Famous quotes'
-                        image={ministryImage}
+                        image={antiFurriesImage}
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
@@ -89,7 +93,7 @@ function Universe() {
                     <CardMedia 
                         component='img'
                         alt='Points of interest'
-                        image={ministryImage}
+                        image={pointInterestImage}
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
@@ -108,7 +112,7 @@ function Universe() {
                     <CardMedia 
                         component='img'
                         alt='Calendar'
-                        image={ministryImage}
+                        image={calendarImage}
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
