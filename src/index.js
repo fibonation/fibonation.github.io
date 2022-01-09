@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Universe from './components/pages/Universe';
 import SupremeLeader from './components/pages/SupremeLeader';
+import Ministry from './components/pages/Ministry';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,6 +15,7 @@ ReactDOM.render(
         <Route path='/' element={<App />}/>
         <Route path='/universe' element={<Universe />}/>
         <Route path='/universe/supreme-leader' element={<SupremeLeader />}/>
+        <Route path='/universe/ministry' element={<Ministry />}/>
         <Route path='/memes' element={<App />}/>
       </Routes>
     </BrowserRouter>

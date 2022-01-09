@@ -35,7 +35,7 @@ function Universe() {
         </Grid>
         <Grid item md={3}>
             <Card>
-                <CardActionArea>
+                <CardActionArea component={Link} to='/universe/ministry'>
                     <CardMedia 
                         component='img'
                         alt='The Ministry'

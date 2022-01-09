@@ -9,10 +9,12 @@ function SupremeLeader() {
         <Grid container px={5}>
             <Grid item md={12}>
                 <Typography variant='h3' textAlign='center' pb={2}>The Supreme Leader</Typography>
-                <Divider></Divider>
             </Grid>
-            <Grid item container md={3} alignItems='center'><img src={fibonacciSpyral} className='left-spyral'/></Grid>
+            <Grid item container md={3} alignItems='center'>
+                <img src={fibonacciSpyral} className='left-spyral' alt='Left spyral'/>
+                </Grid>
             <Grid item container md={6} py={2}>
+                <Divider style={{width:'100%', marginBottom: '1em'}}></Divider>
                 <Typography paragraph>
                     This role has the biggest authority in the nation.
                 </Typography>
@@ -25,11 +27,11 @@ function SupremeLeader() {
                 <Typography paragraph>
                     As the head of the Supreme Ministry, the Supreme Leader has the obligation of controlling the state of every Ministry and their current projects.
                 </Typography>
+                <Divider style={{width:'100%'}}></Divider>
             </Grid>
-            <Grid item container md={3} alignItems='center'><img src={fibonacciSpyral} className='right-spyral'/></Grid>
-            <Grid item md={12}>
-                <Divider></Divider>
-            </Grid>
+            <Grid item container md={3} alignItems='center'>
+                <img src={fibonacciSpyral} className='right-spyral' alt='Right spyral'/>
+                </Grid>
         </Grid>
     </CorePage>
   );
