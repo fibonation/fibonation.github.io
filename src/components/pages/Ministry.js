@@ -51,8 +51,17 @@ function Ministry() {
                         <Typography gutterBottom variant="h5" component="div">
                             SLCE Minister
                         </Typography>
-                        <Typography variant="body2" color="text.secondary">
-                            
+                        <Typography paragraph variant="body2" color="text.secondary">
+                            A multifaceted minister, SLCE stands for Sports, Leisure, Culture and Economy.
+                        </Typography>
+                        <Typography paragraph variant="body2" color="text.secondary">
+                            It has the biggest count of sublevations in Fibonation among the ministries but somehow, it remains his status in the nation.
+                        </Typography>
+                        <Typography paragraph variant="body2" color="text.secondary">
+                            It created a cryptocurrency to be later lost in the depths of the Ethereum testnet.
+                        </Typography>
+                        <Typography paragraph variant="body2" color="green">
+                            Loves mango 🥭
                         </Typography>
                     </CardContent>
                 </Card>
@@ -68,8 +77,11 @@ function Ministry() {
                         <Typography gutterBottom variant="h5" component="div">
                             I/E Relationships Minister
                         </Typography>
-                        <Typography variant="body2" color="text.secondary">
-                            
+                        <Typography paragraph variant="body2" color="text.secondary">
+                            The internal and external relationships minister jobs is to comunicate the actions and desires of the ministry to both Fibonation citizens and foreigners.
+                        </Typography>
+                        <Typography paragraph variant="body2" color="text.secondary">
+                            It achievements helped to bring some of the nowadays ministers of Fibonation.
                         </Typography>
                     </CardContent>
                 </Card>
