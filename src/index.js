@@ -12,11 +12,11 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<App />}/>
-        <Route path='/universe' element={<Universe />}/>
-        <Route path='/universe/supreme-leader' element={<SupremeLeader />}/>
-        <Route path='/universe/ministry' element={<Ministry />}/>
-        <Route path='/memes' element={<App />}/>
+        <Route exact path='/' element={<App />}/>
+        <Route exact path='/universe' element={<Universe />}/>
+        <Route exact path='/universe/supreme-leader' element={<SupremeLeader />}/>
+        <Route exact path='/universe/ministry' element={<Ministry />}/>
+        <Route exact path='/memes' element={<App />}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
